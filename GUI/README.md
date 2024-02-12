@@ -1,1 +1,3 @@
 # test games
+
+store: redux
