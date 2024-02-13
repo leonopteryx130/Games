@@ -1,3 +1,3 @@
 # test games
 
-store: redux
+store: redux toolkit

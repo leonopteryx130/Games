@@ -1,13 +1,18 @@
 import React from 'react';
+import { Provider } from 'react-redux';
 
 import RegListenerHOC from './utils/hoc/register_listener';
-import './App.scss'
+import { store } from './store/store';
+import style from './App.css'
 
 const AppComp = () => {
   return (
-    <div className="App">
-      测试APP
-    </div>
+    <Provider store={store}>  
+      <div className="App">
+        测试APP
+        <p className={style.text}>蓝字</p>
+      </div>
+    </Provider>
   );
 }
 

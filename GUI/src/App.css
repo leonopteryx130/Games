@@ -1,0 +1,7 @@
+:global(.App) {
+    color: red;
+}
+
+.text {
+    color: blue;
+}
