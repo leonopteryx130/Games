@@ -1,7 +1,7 @@
 const MainUI = () => {
     return (
-        <div>
-            <canvas />
+        <div id='main_container'>
+
         </div>
     )
 }
