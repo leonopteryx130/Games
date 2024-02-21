@@ -7,8 +7,8 @@ import { createSlice } from "@reduxjs/toolkit";
 const windowsSlice = createSlice({
     name: "windows",
     initialState: {
-        clientWidth: 0,
-        clientHeight: 0
+        clientWidth: window.innerWidth,
+        clientHeight: window.innerHeight
     },
     reducers: {
         resize: (state) => {
